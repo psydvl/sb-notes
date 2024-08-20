@@ -11,7 +11,7 @@ libraries:
 
 git: # github:silverbulletmd/silverbullet-git/git.plug.js
   autoCommitMinutes: 5
-  autoSync: false # or true
+  autoSync: true # or false
 
 katex: # github:silverbulletmd/silverbullet-katex/katex.plug.js
   # To change the default rendering mode to displaystyle, alternatively use `\displaystyle` in the block
