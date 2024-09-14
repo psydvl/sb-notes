@@ -9,15 +9,8 @@ systemctl enable fail2ban
 ```
 
 ## Backup
-
-```bash
-# backup
-cd /
-date >./server/time
-tar -Ipigz -cf $(date -uI).server.$RANDOM.tar.gz ./server
-cd /server/rust/data/server
-1
-# restore
-cd /
-tar -Ipigz -xf file.tar.gz
+```template
+[[Notes/Rust#Backup]]
 ```
+
+
